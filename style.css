@@ -1,0 +1,29 @@
+.calculator {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+}
+form {
+  border: 5px solid #666;
+  background-color: #444;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: fit-content;
+  margin: auto;
+}
+input {
+  width: 100px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: lightgray;
+  font-size: 30px;
+  font-weight: bold;
+}
+#layar {
+  width: 440px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 40px;
+}
