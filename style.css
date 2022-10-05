@@ -20,10 +20,39 @@ input {
   background-color: lightgray;
   font-size: 30px;
   font-weight: bold;
+  transition: 0.3s;
+}
+input:hover {
+  background-color: rgb(151, 151, 151);
 }
 #layar {
   width: 440px;
   padding: 10px;
   box-sizing: border-box;
   font-size: 40px;
+  outline: none;
+  border: none;
+}
+#layar:hover {
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 550px) {
+  input {
+    width: 80px;
+    height: 70px;
+  }
+  #layar {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 500px) {
+  input {
+    width: 60px;
+    height: 50px;
+    font-size: 25px;
+  }
+  #layar {
+    width: 280px;
+  }
 }
