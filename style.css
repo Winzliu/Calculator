@@ -56,3 +56,22 @@ input:hover {
     width: 280px;
   }
 }
+
+.card {
+  font-size: 2rem;
+}
+
+table {
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 60px;
+  border-radius: 0.5em;
+}
+
+table tr th {
+  padding: 0.3em 0.5em;
+}
+table tr td {
+  text-align: center;
+}

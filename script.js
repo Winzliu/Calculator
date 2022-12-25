@@ -5,10 +5,20 @@ function hapus() {
   document.getElementById("layar").value = "";
 }
 function akhir() {
-  var hasil = document.getElementById("layar").value;
-  if (hasil) {
-    document.getElementById("layar").value = eval(hasil);
+  var jawab = document.getElementById("layar").value;
+  var table = document.getElementById("table");
+  const kolom = document.createElement('tr');
+  table.appendChild(kolom);
+  const perhitungan = document.createElement('td');
+  perhitungan.innerHTML = jawab;
+  kolom.appendChild(perhitungan);
+  const hasil = document.createElement('td');
+  hasil.innerHTML = eval(jawab);
+  kolom.appendChild(hasil);
+  if (jawab) {
+    document.getElementById("layar").value = eval(jawab);
   }
+  
 }
 function backspace() {
   var a = document.getElementById("layar").value;
